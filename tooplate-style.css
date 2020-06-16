@@ -618,7 +618,9 @@ http://www.tooplate.com/view/2098-health
   }
 
   #news-detail blockquote {
-    margin: 30px 0;
+
+    margin: 30px 0
+    /* margin: 30px 0; */
   }
 
   .news-detail-thumb .news-image img {
