@@ -196,14 +196,18 @@ http://www.tooplate.com/view/2098-health
     padding-bottom: 100px;
   }
 
+
   #news, #service {
     text-align: center;
   }
 
   #google-map {
     line-height: 0;
-    margin: 0;
-    padding: 0;
+
+    padding-top: 100px;
+    padding-bottom: 50px; 
+    /* margin: 0; */
+    /* padding: 0;  */
   }
 
 
@@ -496,7 +500,7 @@ http://www.tooplate.com/view/2098-health
   }
 
   #about {
-    background: url('../images/about-image.jpg') no-repeat top center;
+    /* background: url('../images/about-image.jpg') no-repeat top center; */
     background-size: cover;
     padding-top: 150px;
     padding-bottom: 150px;
@@ -523,7 +527,310 @@ http://www.tooplate.com/view/2098-health
     margin: 0;
   }
 
+/*about from the other tamplate*/
 
+.about-wrapper .thumbnail img,
+.active-dark .thumbnail img {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-inner {
+    padding-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .about-inner {
+    padding-top: 40px;
+  }
+}
+
+.about-inner .section-title h2.title {
+  margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 767px) {
+  .about-inner .section-title h2.title {
+    margin-bottom: 15px;
+    font-size: 31px;
+  }
+}
+
+.about-inner .section-title p.description {
+  font-weight: 300;
+  color: #717173;
+  padding: 0;
+}
+
+.about-inner .section-title p.description a {
+  color: #1d1d24;
+}
+
+.about-inner .section-title p.description a:hover {
+  color: #f9004d;
+}
+
+.about-wrapper .thumbnail {
+  position: relative;
+  z-index: 2;
+}
+
+.about-wrapper .thumbnail img {
+  border-radius: 8px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-position-top {
+    padding-top: 120px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-position-top {
+    padding-top: 80px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .about-position-top {
+    padding-top: 60px;
+  }
+}
+
+.about-position-top .thumbnail {
+  margin-top: -130px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-position-top .thumbnail {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+  .about-position-top .thumbnail {
+    margin-top: -89px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-position-top .thumbnail {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .about-position-top .thumbnail {
+    margin-top: 0;
+  }
+}
+
+.about-us-list {
+  margin-top: 15px;
+}
+
+.about-us-list h3.title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .about-us-list h3.title {
+    font-size: 26px;
+    margin-bottom: 8px;
+  }
+}
+
+.about-us-list p {
+  font-weight: 300;
+  color: rgba(29, 29, 36, 0.75);
+}
+
+
+/*list statistic counter*/
+
+
+.rn-section-gap {
+  padding: 120px 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .rn-section-gap {
+    padding: 80px 0 !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .rn-section-gap {
+    padding: 80px 0 !important;
+  }
+}
+
+.rn-section-gapBottom {
+  padding-bottom: 120px;
+}
+
+@media only screen and (max-width: 767px) {
+  .rn-section-gapBottom {
+    padding-bottom: 80px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .rn-section-gapBottom {
+    padding-bottom: 80px !important;
+  }
+}
+
+.rn-section-gapTop {
+  padding-top: 120px;
+}
+
+@media only screen and (max-width: 767px) {
+  .rn-section-gapTop {
+    padding-top: 60px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .rn-section-gapTop {
+    padding-top: 80px !important;
+  }
+}
+
+
+.section-single-title h3 {
+  font-size: 36px;
+  line-height: 26px;
+}
+
+.fontWeight500 {
+  font-weight: 500 !important;
+}
+
+
+.counterup_style--1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.counterup_style--1 h5.counter {
+  font-size: 72px;
+  line-height: 80px;
+  display: inline-block;
+  margin-bottom: 10px;
+  position: relative;
+  display: inline-block;
+  color: #32ad5b;
+  margin-left: -13px;
+}
+
+@media only screen and (max-width: 767px) {
+  .counterup_style--1 h5.counter {
+    font-size: 45px;
+    line-height: 56px;
+    margin-bottom: 5px;
+    margin-left: -11px;
+  }
+}
+
+.counterup_style--1 h5.counter::after {
+  right: -26px;
+  position: absolute;
+  top: -17px;
+  font-size: 40px;
+  content: "+";
+}
+
+.counterup_style--1 p.description {
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0 5%;
+  color: rgba(29, 29, 36, 0.75);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .counterup_style--1 p.description {
+    font-size: 16px;
+    line-height: 28px;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .counterup_style--1 p.description {
+    font-size: 16px;
+    line-height: 28px;
+    padding: 0;
+  }
+}
+
+/* .counterup_style--1.text-left h5.counter {
+  margin-left: 0;
+}
+
+.counterup_style--1.text-left p.description {
+  padding: 0 7% 0 0;
+}
+
+.counterup_style--1.text-right h5.counter {
+  margin-left: 0;
+}
+
+.counterup_style--1.text-right p.description {
+  padding: 0 0 0 7%;
+}
+
+.counterup_style--1.text-white p.description {
+  color: #c6c9d8;
+}
+
+.rn-paralax-counterup .counterup_style--1 {
+  text-align: center;
+}
+
+.rn-paralax-counterup .counterup_style--1 h5.counter {
+  color: #f9004d;
+}
+
+.rn-paralax-counterup .counterup_style--1 p.description {
+  color: #ffffff;
+}
+
+.counterup_style--2 {
+  text-align: center;
+}
+
+.counterup_style--2 h5.counter {
+  font-size: 50px;
+  line-height: 60px;
+  color: #f9004d;
+  display: inline-block;
+  margin-bottom: 10px;
+} */
+
+.counterup_style--2 h4.description {
+  font-size: 16px;
+  line-height: 30px;
+  padding: 0 10%;
+  margin-bottom: 0;
+}
+
+.theme-text-white .counterup_style--1 h5.counter {
+  color: #ffffff;
+}
+
+.theme-text-white .counterup_style--1 p.description {
+  color: #ffffff;
+}
+
+/*end list statistic counter*/
+
+
+/*end about from the oethr*/
 
   /*---------------------------------------
       TEAM MEMBERS              
@@ -925,7 +1232,9 @@ http://www.tooplate.com/view/2098-health
   -----------------------------------------*/
 
   footer {
-    padding-top: 80px;
+
+    
+    padding-top: 40px;
     padding-bottom: 40px;
   }
 
