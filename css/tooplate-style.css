@@ -727,8 +727,12 @@ http://www.tooplate.com/view/2098-health
 
 
 .counterup_style--1 {
+  cursor: pointer;
   text-align: center;
   margin-top: 40px;
+  border: #32ad5b 1px solid;
+  border-radius: 5%;
+  /* background-color: #4267b2; */
 }
 
 .counterup_style--1 h5.counter {
@@ -756,15 +760,25 @@ http://www.tooplate.com/view/2098-health
   position: absolute;
   top: -17px;
   font-size: 40px;
-  content: "+";
+  /* content: "+"; */
 }
 
 .counterup_style--1 p.description {
   font-size: 18px;
   line-height: 30px;
   padding: 0 5%;
+  
   color: rgba(29, 29, 36, 0.75);
 }
+
+
+ .counterup_style--1:hover{
+
+  color: #ffffff;
+
+  background-color: #4267b2;
+}
+
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .counterup_style--1 p.description {
@@ -811,7 +825,7 @@ http://www.tooplate.com/view/2098-health
 }
 
 .rn-paralax-counterup .counterup_style--1 p.description {
-  color: #ffffff;
+  color: #ffffff; 
 }
 
 .counterup_style--2 {
@@ -842,6 +856,229 @@ http://www.tooplate.com/view/2098-health
 }
 
 /*end list statistic counter*/
+
+
+/*department detail */
+
+.rn-blog-details .inner-wrapper .inner {
+  padding: 0 110px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .rn-blog-details .inner-wrapper .inner {
+    padding: 0 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .rn-blog-details .inner-wrapper .inner {
+    padding: 0 40px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .rn-blog-details .inner-wrapper .inner {
+    padding: 0 10px;
+  }
+}
+
+.rn-blog-details .inner-wrapper .inner p {
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(29, 29, 36, 0.75);
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 767px) {
+  .rn-blog-details .inner-wrapper .inner p {
+    margin-bottom: 20px;
+  }
+}
+
+.rn-blog-details .inner-wrapper .inner .thumbnail {
+  margin: 0 -110px;
+}
+
+@media only screen and (max-width: 767px) {
+  .rn-blog-details .inner-wrapper .inner .thumbnail {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .rn-blog-details .inner-wrapper .inner .thumbnail {
+    margin: 0;
+  }
+}
+
+.rn-blog-details .inner-wrapper .inner .thumbnail img {
+  width: 100%;
+}
+
+.rn-blog-details .inner-wrapper .inner .rn-blog-quote {
+  font-size: 24px;
+  line-height: 40px;
+  color: #1f1f25;
+  font-weight: 400;
+  text-align: center;
+  padding: 0 9%;
+  margin-top: 67px;
+  margin-bottom: 67px;
+  position: relative;
+  z-index: 2;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .rn-blog-details .inner-wrapper .inner .rn-blog-quote {
+    padding: 0 4%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .rn-blog-details .inner-wrapper .inner .rn-blog-quote {
+    padding: 0 4%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .rn-blog-details .inner-wrapper .inner .rn-blog-quote {
+    padding: 0 4%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 33px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .rn-blog-details .inner-wrapper .inner .rn-blog-quote {
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 29px;
+  }
+}
+
+.rn-blog-details .inner-wrapper .inner .rn-blog-quote::before {
+  position: absolute;
+  width: 234px;
+  height: 121%;
+  left: 50%;
+  top: 2px;
+  background-image: url(/assets/images/client/image-1.png);
+  content: "";
+  opacity: 1;
+  background-repeat: no-repeat;
+  z-index: -1;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.rn-blog-details .inner-wrapper .blog-single-list-wrapper {
+  margin-right: -110px;
+}
+
+@media only screen and (max-width: 767px) {
+  .rn-blog-details .inner-wrapper .blog-single-list-wrapper {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .rn-blog-details .inner-wrapper .blog-single-list-wrapper {
+    margin-right: 0;
+  }
+}
+
+.rn-blog-details .inner-wrapper .blog-single-list-wrapper .thumbnail {
+  width: 55%;
+  padding-right: 30px;
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .rn-blog-details .inner-wrapper .blog-single-list-wrapper .thumbnail {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .rn-blog-details .inner-wrapper .blog-single-list-wrapper .thumbnail {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+
+.rn-blog-details .inner-wrapper .blog-single-list-wrapper .thumbnail img {
+  width: 100%;
+}
+
+.rn-blog-details .inner-wrapper .blog-single-list-wrapper .thumbnail span {
+  color: rgba(29, 29, 36, 0.75);
+  font-size: 14px;
+  display: block;
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 110px;
+}
+
+@media only screen and (max-width: 767px) {
+  .rn-blog-details .inner-wrapper .blog-single-list-wrapper .thumbnail span {
+    font-size: 13px;
+    padding-left: 0;
+    margin-bottom: 23px;
+  }
+}
+
+.rn-blog-details .inner-wrapper .blog-single-list-wrapper h4.title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+  .rn-blog-details .inner-wrapper .blog-single-list-wrapper h4.title {
+    margin-bottom: 16px;
+  }
+}
+
+.rn-blog-details .inner-wrapper .blog-single-list-wrapper .content {
+  width: 45%;
+}
+
+@media only screen and (max-width: 767px) {
+  .rn-blog-details .inner-wrapper .blog-single-list-wrapper .content {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .rn-blog-details .inner-wrapper .blog-single-list-wrapper .content {
+    width: 100%;
+  }
+}
+
+.rn-blog-details .inner-wrapper .blog-single-list-wrapper .content ul.list-style {
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 767px) {
+  .rn-blog-details .inner-wrapper .blog-single-list-wrapper .content ul.list-style {
+    margin-bottom: 25px;
+  }
+}
+
+
+/*end of department detail*/
+
+
 
 
 /*end about from the oethr*/
@@ -951,7 +1188,7 @@ http://www.tooplate.com/view/2098-health
       NEWS             
   -----------------------------------------*/
 
-  #news, #news-detail {
+  #news, #news-detail, #stat {
     background: #f9f9f9;
   }
 
