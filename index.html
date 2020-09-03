@@ -459,16 +459,24 @@ http://www.tooplate.com/view/2098-health
                     <div class="col-md-4 col-sm-6">
                          <!-- NEWS THUMB -->
                          <div class="news-thumb wow fadeInUp" data-wow-delay="0.4s">
-                              <a href="resource-humaine.html">
-                                   <img src="images/rh.jpg" class="img-responsive" alt="">
+                              <a href=""   data-toggle="modal" data-target=".RHMODAL">
+                                   <img src="images/rh.jpg" class="img-responsive" alt=""
+                                  
+                                   >
+                                 
                               </a>
                               <div class="news-info">
                                    <!-- <span>March 08, 2018</span> -->
-                                   <h3><a href="resource-humaine.html">Ressource Humaines</a></h3>
+                                   <h3><a href=""  data-toggle="modal" data-target=".RHMODAL">Ressource Humaines</a></h3>
                                    <p>En  ce qui a trait à la gestion du personnel du Centre
                                          (assurance, congé, nomination et autres), le service des Ressources Humaines
                                          s’occupe tant des dossiers des employés du bureau central que de ceux des Réseaux ambulanciers départementaux.
-                                        <a href="logistique.html" class="section-style">Lire la suite</a>
+                                        <a href="" class="section-style"
+                                        
+                                       data-toggle="modal" data-target=".RHMODAL"
+                                        >Lire la suite
+                                   
+                                   </a>
                                         </p>
                                    
                               </div>
@@ -1031,6 +1039,160 @@ http://www.tooplate.com/view/2098-health
                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                <button type="button" class="btn btn-primary">Save changes</button>
              </div>
+          </div>
+        </div>
+
+
+        <div class="modal fade RHMODAL" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+               <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">EFFECTIF PERSONNELS CAN</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+
+                  <table class="table">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">DEPARTEMENT</th>
+                        <th scope="col">INFIRMIERE</th>
+                        <th scope="col">CHAUFFEURS</th>
+                        <th scope="col">SECOURISTE</th>
+                        <th scope="col">PERMANENCIER</th>
+                        <th scope="col">ADMINISTRATION</th>
+                        <th scope="col">AUTRES</th>
+                        <th scope="col">TOTAL</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>OUEST</td>
+                        <td>47</td>
+                        <td>61</td>
+                        <td>53</td>
+                        <td>27</td>
+                        <td>31</td>
+                        <td>72</td>
+                        <td>291</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>ARTIBONITE</td>
+                        <td>34</td>
+                        <td>26</td>
+                        <td>29</td>
+                        <td>6</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>96</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>NORD/NORD'EST</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>22</td>
+                        <td>4</td>
+                        <td>4</td>
+                        <td>10</td>
+                        <td>83</td>
+                      </tr>
+
+                      <tr>
+                         <th scope="row">4</th>
+                         <td>SUD'EST</td>
+                         <td>2</td>
+                         <td>19</td>
+                         <td>4</td>
+                         <td>0</td>
+                         <td>2</td>
+                         <td>0</td>
+                         <td>27</td>
+                       </tr>
+
+                       <tr>
+                         <th scope="row">5</th>
+                         <td>SUD</td>
+                         <td>5</td>
+                         <td>11</td>
+                         <td>4</td>
+                         <td>0</td>
+                         <td>1</td>
+                         <td>0</td>
+                         <td>21</td>
+                       </tr>
+
+                       <tr>
+                         <th scope="row">6</th>
+                         <td>NORD-OUEST</td>
+                         <td>0</td>
+                         <td>10</td>
+                         <td>8</td>
+                         <td>0</td>
+                         <td>0</td>
+                         <td>0</td>
+                         <td>18</td>
+                       </tr>
+
+                       <tr>
+                         <th scope="row">7</th>
+                         <td>Grand-ANSE</td>
+                         <td>2</td>
+                         <td>4</td>
+                         <td>4</td>
+                         <td>0</td>
+                         <td>0</td>
+                         <td>10</td>
+                         <td>10</td>
+                       </tr>
+
+                       <tr>
+                         <th scope="row">8</th>
+                         <td>NIPPES</td>
+                         <td>3</td>
+                         <td>10</td>
+                         <td>1</td>
+                         <td>0</td>
+                         <td>0</td>
+                         <td>0</td>
+                         <td>14</td>
+                       </tr>
+
+                       <tr>
+                         <th scope="row">9</th>
+                         <td>CENTRE</td>
+                         <td>0</td>
+                         <td>1</td>
+                         <td>0</td>
+                         <td>0</td>
+                         <td>0</td>
+                         <td>0</td>
+                         <td>1</td>
+                       </tr>
+                         <tr class="thead-dark">
+                       <th scope="row" >10</th>
+                       <td>TOTAL</td>
+                       <td>114</td>
+                       <td>164</td>
+                       <td>125</td>
+                       <td>37</td>
+                       <td>39</td>
+                       <td>82</td>
+                       <td>561</td>
+                     </tr>
+
+
+                    </tbody>
+                  </table>
+                  
+                
+                        <!-- <embed src='' width=900 height=900 type='application/pdf'/> -->
+            </div>
+          
           </div>
         </div>
    
