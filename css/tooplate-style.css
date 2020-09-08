@@ -189,7 +189,7 @@ http://www.tooplate.com/view/2098-health
   }
 
 
-  #about, #news,
+  #about, #section-detail,
   #news-detail {
     position: relative;
     padding-top: 100px;
@@ -200,7 +200,7 @@ http://www.tooplate.com/view/2098-health
   position: relative;
     padding-top: 70px;
 }
-  #news, #service {
+  #section-detail, #service {
     text-align: center;
   }
 
@@ -734,7 +734,7 @@ http://www.tooplate.com/view/2098-health
   text-align: center;
   margin-top: 40px;
   border: #32ad5b 1px solid;
-  border-radius: 2%;
+  border-radius: 3%;
   opacity: 1.1;
   /* background-color: #4267b2; */
 }
@@ -1218,7 +1218,7 @@ http://www.tooplate.com/view/2098-health
       NEWS             
   -----------------------------------------*/
 
-  #news, #news-detail, #stat {
+  #section-detail, #news-detail, #depatment {
     background: #f9f9f9;
   }
 
