@@ -150,6 +150,7 @@ http://www.tooplate.com/view/2098-health
   .news-thumb {
     background: #ffffff;
     border-radius: 10px;
+    margin: 1.2px;
   }
   .news-thumb img {
     border-radius: 10px 10px 0 0;
@@ -1222,6 +1223,7 @@ http://www.tooplate.com/view/2098-health
   -----------------------------------------*/
 
   #section-detail, #news-detail, #depatment {
+    /* background: aqua; */
     background: #f9f9f9;
   }
 
