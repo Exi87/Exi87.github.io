@@ -199,7 +199,7 @@ http://www.tooplate.com/view/2098-health
 #team{
   position: relative;
     padding-top: 70px;
-    /* background-color: aqua; */
+    background: #f9f9f9;
 }
   #section-detail, #service {
     text-align: center;
