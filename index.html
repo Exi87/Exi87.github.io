@@ -25,6 +25,7 @@ http://www.tooplate.com/view/2098-health
       <!-- <link rel="stylesheet" href="http://rainbowit.net/html/trydo/assets/css/style.css">  -->
      <!-- MAIN CSS -->
      <link rel="stylesheet" href="css/tooplate-style.css">
+     <link rel="stylesheet" href="http://rainbowit.net/html/trydo/assets/css/plugins/plugins.css">
      <!-- <link rel="stylesheet" href="http://rainbowit.net/html/trydo/assets/css/style.css"> -->
 </head>
 <body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
@@ -907,7 +908,7 @@ http://www.tooplate.com/view/2098-health
                           <p class="card-text">Urgences Obstetricales:253, Accident de la voie Publique:122.</p>
                           <a href="https://www.facebook.com/MSPPCAN116/photos/pcb.3302172943201554/3302165436535638/" 
                           target="_blank"
-                          class="btn btn-primary">Lire la suite</a>
+                          class="btn btn-primary  documentation-style">Lire la suite</a>
                         </div>
                       </div>
                     </div>
@@ -917,7 +918,7 @@ http://www.tooplate.com/view/2098-health
                           <h4 class="card-title">Bilan annuel</h4>
                           <p class="card-text">
                              Les operations du CAN commencent a partir du centre d'appel.</p>
-                          <a href="#" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">
+                          <a href="#" class="btn btn-primary  documentation-style" data-toggle="modal" data-target=".bd-example-modal-lg">
                                
                               <!-- <embed src='document/Cv.pdf' width=800 height=500 type='application/pdf'/> -->
                          Lire la suite</a>
@@ -929,7 +930,7 @@ http://www.tooplate.com/view/2098-health
                            <div class="card-body">
                              <h4 class="card-title">Decret regi le can</h4>
                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                             <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Lire la suite</a>
+                             <a href="#" class="btn btn-primary documentation-style" data-toggle="modal" data-target="#exampleModal">Lire la suite</a>
                            </div>
                          </div>
                        </div>
@@ -938,7 +939,7 @@ http://www.tooplate.com/view/2098-health
                            <div class="card-body">
                              <h4 class="card-title">Galerie des activitees</h4>
                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                             <a href="galerie-activite.html" class="btn btn-primary" >Lire la suite</a>
+                             <a href="" class="btn btn-primary"  data-toggle="modal" data-target=".GALERY-MODAL" documentation-style" >Lire la suite</a>
                            </div>
                          </div>
                        </div>
@@ -1004,9 +1005,9 @@ http://www.tooplate.com/view/2098-health
 
     
 
-
+    <!-- Start DECRET REGISSANT MODAL-->
       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog" role="document">
+          <div class="modal-dialog" role="document" style="width:1250px" >
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Decret</h5>
@@ -1015,7 +1016,7 @@ http://www.tooplate.com/view/2098-health
                 </button>
               </div>
               <div class="modal-body">
-               <embed src='document/Cv.pdf' width=550 height=500 type='application/pdf'/>
+               <embed src='document/Cv.pdf'  width=1250 height=900 type='application/pdf'/>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -1025,17 +1026,17 @@ http://www.tooplate.com/view/2098-health
           </div>
         </div>
       
-
+    <!-- Start BILAN ANNUEL MODAL-->
         <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-lg">
+          <div class="modal-dialog"  style="width:1250px">
             <div class="modal-content">
                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Bilan annuel</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Bilan operationnel 2018-2019</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
-               <embed src='document/bilan.pdf' width=900 height=900 type='application/pdf'/>
+               <embed src='document/bilan.pdf' width=1250 height=900 type='application/pdf'/>
             </div>
             <div class="modal-footer">
                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -1045,25 +1046,218 @@ http://www.tooplate.com/view/2098-health
         </div>
 
 
-        <div class="modal fade RHMODAL" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-lg">
+    <!-- Start GALERY ACTIVITE MODAL-->
+        <div class="modal fade GALERY-MODAL" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog"  style="width:1250px">
             <div class="modal-content">
                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">EFFECTIF PERSONNELS CAN</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Bilan operationnel 2018-2019</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
 
-                  <table class="table">
-                    <thead class="thead-dark">
+                     <!-- Start GALERY ACTIVITE MODAL-->
+                     <div class="rn-gallery-area rn-section-gap bg_color--1">
+                         <div class="container">
+                             <div class="row row row--5">
+                                 <!-- Start Single Portfolio  -->
+                                 <div class="col-lg-4 col-md-6 col-12">
+                                     <div class="portfolio-style--3">
+                                         <div class="thumbnail">
+                                             <a href="portfolio-details.html">
+                                                 <img class="w-1000" src="images/didie-directeur.jpg" alt="Portfolio Images">
+                                             </a>
+                                         </div>
+                                         <div class="content">
+                                             <p class="portfoliotype">Development</p>
+                                             <h4 class="title"><a href="portfolio-details.html">formation sur urgences obtetricales organise au can</a></h4>
+                                             <div class="portfolio-btn">
+                                                 <a class="rn-btn text-white" href="portfolio-details.html">Read More</a>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <!-- End Single Portfolio  -->
+         
+                                 <!-- Start Single Portfolio  -->
+                                 <div class="col-lg-4 col-md-6 col-12">
+                                   <div class="portfolio-style--3">
+                                       <div class="thumbnail">
+                                           <a href="portfolio-details.html">
+                                               <img class="w-1000" src="images/didie-directeur.jpg" alt="Portfolio Images">
+                                           </a>
+                                       </div>
+                                       <div class="content">
+                                           <p class="portfoliotype">Development</p>
+                                           <h4 class="title"><a href="portfolio-details.html">formation sur urgences obtetricales organise au can</a></h4>
+                                           <div class="portfolio-btn">
+                                               <a class="rn-btn text-white" href="portfolio-details.html">Read More</a>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                                 <!-- End Single Portfolio  -->
+         
+                                 <!-- Start Single Portfolio  -->
+                                 <div class="col-lg-4 col-md-6 col-12">
+                                   <div class="portfolio-style--3">
+                                       <div class="thumbnail">
+                                           <a href="portfolio-details.html">
+                                               <img class="w-1000" src="images/didie-directeur.jpg" alt="Portfolio Images">
+                                           </a>
+                                       </div>
+                                       <div class="content">
+                                           <p class="portfoliotype">Development</p>
+                                           <h4 class="title"><a href="portfolio-details.html">formation sur urgences obtetricales organise au can</a></h4>
+                                           <div class="portfolio-btn">
+                                               <a class="rn-btn text-white" href="portfolio-details.html">Read More</a>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                                 <!-- End Single Portfolio  -->
+         
+                                 <!-- Start Single Portfolio  -->
+                                 <div class="col-lg-4 col-md-6 col-12">
+                                     <div class="portfolio-style--3">
+                                         <div class="thumbnail">
+                                             <a href="portfolio-details.html">
+                                                 <img class="w-100" src="http://rainbowit.net/html/trydo/assets/images/portfolio/portfolio-4.jpg" alt="Portfolio Images">
+                                             </a>
+                                         </div>
+                                         <div class="content">
+                                             <p class="portfoliotype">Freelancer</p>
+                                             <h4 class="title"><a href="portfolio-details.html">You can see your Portfolio</a></h4>
+                                             <div class="portfolio-btn">
+                                                 <a class="rn-btn text-white" href="portfolio-details.html">Read More</a>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <!-- End Single Portfolio  -->
+         
+                                 <!-- Start Single Portfolio  -->
+                                 <div class="col-lg-4 col-md-6 col-12">
+                                     <div class="portfolio-style--3">
+                                         <div class="thumbnail">
+                                             <a href="portfolio-details.html">
+                                                 <img class="w-100" src="http://rainbowit.net/html/trydo/assets/images/portfolio/portfolio-5.jpg" alt="Portfolio Images">
+                                             </a>
+                                         </div>
+                                         <div class="content">
+                                             <p class="portfoliotype">Freelancer</p>
+                                             <h4 class="title"><a href="portfolio-details.html">The Language of Developer</a></h4>
+                                             <div class="portfolio-btn">
+                                                 <a class="rn-btn text-white" href="portfolio-details.html">Read More</a>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <!-- End Single Portfolio  -->
+         
+                                 <!-- Start Single Portfolio  -->
+                                 <div class="col-lg-4 col-md-6 col-12">
+                                     <div class="portfolio-style--3">
+                                         <div class="thumbnail">
+                                             <a href="portfolio-details.html">
+                                                 <img class="w-100" src="http://rainbowit.net/html/trydo/assets/images/portfolio/portfolio-6.jpg" alt="Portfolio Images">
+                                             </a>
+                                         </div>
+                                         <div class="content">
+                                             <p class="portfoliotype">Freelancer</p>
+                                             <h4 class="title"><a href="portfolio-details.html">You can see your Portfolio</a></h4>
+                                             <div class="portfolio-btn">
+                                                 <a class="rn-btn text-white" href="portfolio-details.html">Read More</a>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </div>
+
+                                 <div class="col-lg-4 col-md-6 col-12">
+                                   <div class="portfolio-style--3">
+                                       <div class="thumbnail">
+                                           <a href="portfolio-details.html">
+                                               <img class="w-100" src="http://rainbowit.net/html/trydo/assets/images/portfolio/portfolio-6.jpg" alt="Portfolio Images">
+                                           </a>
+                                       </div>
+                                       <div class="content">
+                                           <p class="portfoliotype">Freelancer</p>
+                                           <h4 class="title"><a href="portfolio-details.html">You can see your Portfolio</a></h4>
+                                           <div class="portfolio-btn">
+                                               <a class="rn-btn text-white" href="portfolio-details.html">Read More</a>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+
+                               <div class="col-lg-4 col-md-6 col-12">
+                                   <div class="portfolio-style--3">
+                                       <div class="thumbnail">
+                                           <a href="portfolio-details.html">
+                                               <img class="w-100" src="http://rainbowit.net/html/trydo/assets/images/portfolio/portfolio-6.jpg" alt="Portfolio Images">
+                                           </a>
+                                       </div>
+                                       <div class="content">
+                                           <p class="portfoliotype">Freelancer</p>
+                                           <h4 class="title"><a href="portfolio-details.html">You can see your Portfolio</a></h4>
+                                           <div class="portfolio-btn">
+                                               <a class="rn-btn text-white" href="portfolio-details.html">Read More</a>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+
+                               <div class="col-lg-4 col-md-6 col-12">
+                                   <div class="portfolio-style--3">
+                                       <div class="thumbnail">
+                                           <a href="portfolio-details.html">
+                                               <img class="w-100" src="http://rainbowit.net/html/trydo/assets/images/portfolio/portfolio-6.jpg" alt="Portfolio Images">
+                                           </a>
+                                       </div>
+                                       <div class="content">
+                                           <p class="portfoliotype">Freelancer</p>
+                                           <h4 class="title"><a href="portfolio-details.html">You can see your Portfolio</a></h4>
+                                           <div class="portfolio-btn">
+                                               <a class="rn-btn text-white" href="portfolio-details.html">Read More</a>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                                 <!-- End Single Portfolio  -->
+         
+                             </div>
+                         </div>
+                     </div>
+            </div>
+            <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+               <button type="button" class="btn btn-primary">Save changes</button>
+             </div>
+          </div>
+        </div>
+
+      
+
+        <div class="modal fade RHMODAL" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog"  style="width:1250px">
+            <div class="modal-content">
+               <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">EFFECTIF PERSONNELS CAN</h5>
+                    <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button> -->
+                  </div>
+
+                  <table class="table table-sm">
+                    <thead >
                       <tr>
                         <th scope="col">#</th>
                         <th scope="col">DEPARTEMENT</th>
                         <th scope="col">INFIRMIERE</th>
                         <th scope="col">CHAUFFEURS</th>
                         <th scope="col">SECOURISTE</th>
-                        <th scope="col">PERMANENCIER</th>
+                        <th scope="col">PERMANENCIERS</th>
                         <th scope="col">ADMINISTRATION</th>
                         <th scope="col">AUTRES</th>
                         <th scope="col">TOTAL</th>
