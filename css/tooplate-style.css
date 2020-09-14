@@ -789,8 +789,161 @@ http://www.tooplate.com/view/2098-health
   color: #fff;
 }
 
+.documentation-style{
+  background-color: #4267b2;
+}
 
 
+/*galery activite*/
+
+.portfolio-style--3 {
+  position: relative;
+  margin-bottom: 40px;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.portfolio-style--3 .thumbnail a {
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+.portfolio-style--3 .thumbnail a::after {
+  background-color: #32ad5b;
+  /* background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fc004d), to(#000000));
+  background: -webkit-linear-gradient(top, #fc004d 0, #000000 100%);
+  background: -o-linear-gradient(top, #fc004d 0, #000000 100%);
+  background: linear-gradient(to bottom, #fc004d 0, #000000 100%); */
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  z-index: 1;
+  opacity: 0;
+}
+
+@media only screen and (max-width: 575px) {
+  .portfolio-style--3 .thumbnail a::after {
+    opacity: 0.85;
+    top: 0;
+  }
+}
+
+.portfolio-style--3 .content {
+  position: absolute;
+  bottom: -92px;
+  width: 100%;
+  padding: 50px 35px;
+  z-index: 3;
+}
+
+@media only screen and (max-width: 575px) {
+  .portfolio-style--3 .content {
+    bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .portfolio-style--3 .content {
+    padding: 30px 20px;
+  }
+}
+
+.portfolio-style--3 .content::before {
+  position: absolute;
+  content: "";
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, 0)), color-stop(70%, #000000));
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0, #000000 70%);
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0, #000000 70%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, #000000 70%);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 575px) {
+  .portfolio-style--3 .content::before {
+    opacity: 0;
+  }
+}
+
+.portfolio-style--3 .content p.portfoliotype {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #c6c9d8;
+}
+
+.portfolio-style--3 .content h4.title {
+  margin-bottom: 0;
+}
+
+.portfolio-style--3 .content h4.title a {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.portfolio-style--3 .content .portfolio-btn {
+  margin-top: 35px;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 575px) {
+  .portfolio-style--3 .content .portfolio-btn {
+    margin-top: 22px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .portfolio-style--3 .content .portfolio-btn {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.portfolio-style--3:hover .content {
+  bottom: 0;
+}
+
+.portfolio-style--3:hover .content::before {
+  opacity: 0;
+}
+
+.portfolio-style--3:hover .thumbnail a img {
+  background-color: #32ad5b;
+  /* -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1); */
+}
+
+.portfolio-style--3:hover .thumbnail a::before {
+  opacity: 0;
+}
+
+.portfolio-style--3:hover .thumbnail a::after {
+  opacity: 0.85;
+  top: 0;
+}
+
+.portfolio-style--3:hover .content .portfolio-btn {
+  opacity: 1;
+  visibility: visible;
+}
+
+.row--5 .portfolio-style--3 {
+  margin-bottom: 10px;
+}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .counterup_style--1 p.description {
