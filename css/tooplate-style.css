@@ -885,7 +885,7 @@ http://www.tooplate.com/view/2098-health
 
 .portfolio-style--3 .content h4.title a {
   color: #ffffff;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 36px;
 }
@@ -911,6 +911,9 @@ http://www.tooplate.com/view/2098-health
     visibility: visible;
   }
 }
+
+
+
 
 .portfolio-style--3:hover .content {
   bottom: 0;
@@ -945,6 +948,10 @@ http://www.tooplate.com/view/2098-health
   margin-bottom: 10px;
 }
 
+
+
+
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .counterup_style--1 p.description {
     font-size: 16px;
@@ -963,7 +970,34 @@ http://www.tooplate.com/view/2098-health
 
 
 
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
 
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Statistiques {background-color: #32ad5b;}
+#Bilan {background-color: #32ad5b;}
+#Galerie {background-color:#32ad5b;}
+#About {background-color: orange;}
 
 
 
